@@ -20,9 +20,10 @@ To utilise this project, you need to have the following installed locally:
 *	Java 1.8
 
 ## Usage
-*	To run the test, navigate to ElsevierTest directory and run:
+* To run the test, navigate to ElsevierTest directory and run:
    `mvn clean install`
-*	You can run in intellij by executing CucumberTestRunner class
-
+* To run test with tags
+  `mvn test -Dcucumber.filter.tags="@Elseviertest"`
+  `mvn test -Dcucumber.filter.tags="@<tag_name>"`
 ## Reporting
 * After each successful run, reports will generate under /target directory 
