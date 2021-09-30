@@ -29,4 +29,4 @@ Example:
   `mvn test -Dcucumber.filter.tags="@Elseviertest"`
   
 ## Reporting
-* After each successful run, reports will generate under /target directory 
+* After each successful run, reports will generate under /target/cucumber-html-report directory 
