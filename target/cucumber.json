@@ -10,7 +10,7 @@
         "after": [
           {
             "result": {
-              "duration": 747758300,
+              "duration": 759168807,
               "status": "passed"
             },
             "match": {
@@ -23,7 +23,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4968489705,
+              "duration": 6023348497,
               "status": "passed"
             },
             "line": 6,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 18724676376,
+              "duration": 21320448371,
               "status": "passed"
             },
             "line": 7,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 3076934462,
+              "duration": 5540608117,
               "status": "passed"
             },
             "line": 8,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 3778852500,
+              "duration": 4097383135,
               "status": "passed"
             },
             "line": 9,
@@ -76,7 +76,7 @@
     "description": "",
     "id": "verify-summer-dress-can-be-added-to-cart",
     "keyword": "Feature",
-    "uri": "features/elsevier_test.feature",
+    "uri": "elsevier_test.feature",
     "tags": [
       {
         "line": 1,

@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features/elsevier_test.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("elsevier_test.feature");
 formatter.feature({
   "line": 2,
   "name": "Verify summer dress can be added to cart",
@@ -44,32 +44,32 @@ formatter.match({
   "location": "shoppingSteps.navigateToAutomationPracticePage()"
 });
 formatter.result({
-  "duration": 4968489705,
+  "duration": 6023348497,
   "status": "passed"
 });
 formatter.match({
   "location": "shoppingSteps.addDressToCart()"
 });
 formatter.result({
-  "duration": 18724676376,
+  "duration": 21320448371,
   "status": "passed"
 });
 formatter.match({
   "location": "shoppingSteps.clickOnCartButton()"
 });
 formatter.result({
-  "duration": 3076934462,
+  "duration": 5540608117,
   "status": "passed"
 });
 formatter.match({
   "location": "shoppingSteps.proceedToCheckOutInSummaryPage()"
 });
 formatter.result({
-  "duration": 3778852500,
+  "duration": 4097383135,
   "status": "passed"
 });
 formatter.after({
-  "duration": 747758300,
+  "duration": 759168807,
   "status": "passed"
 });
 });
