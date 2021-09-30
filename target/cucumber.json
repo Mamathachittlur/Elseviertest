@@ -1,0 +1,87 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Add summer dress to cart and checkout",
+        "description": "",
+        "id": "verify-summer-dress-can-be-added-to-cart;add-summer-dress-to-cart-and-checkout",
+        "after": [
+          {
+            "result": {
+              "duration": 747758300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.logEndOfScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4968489705,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to automation practice landing page",
+            "match": {
+              "location": "shoppingSteps.navigateToAutomationPracticePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18724676376,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I add summer dresses to the cart",
+            "match": {
+              "location": "shoppingSteps.addDressToCart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3076934462,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on cart to view my order summary",
+            "match": {
+              "location": "shoppingSteps.clickOnCartButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3778852500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on proceed to checkout on cart summary page",
+            "match": {
+              "location": "shoppingSteps.proceedToCheckOutInSummaryPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verify summer dress can be added to cart",
+    "description": "",
+    "id": "verify-summer-dress-can-be-added-to-cart",
+    "keyword": "Feature",
+    "uri": "features/elsevier_test.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Elseviertest"
+      }
+    ]
+  }
+]
